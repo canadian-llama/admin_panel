@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Raleway, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+/* Image input style */
+#image_input {
+  padding: 10px;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+  width: 100%;
+}
+
+/* Enhance the tab text style */
+.tas .text, .tas .tas-text {
+  font-size: 30px; /* Adjust font size */
+  font-weight: 700; /* Make the text bold */
+  font-family: 'Raleway', sans-serif; /* Use a clean and modern font */
+  color: #4CAF50; /* Set a unique color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add text shadow for depth */
+  letter-spacing: 2px; /* Add letter spacing for a more refined look */
+  text-transform: uppercase; /* Capitalize all letters */
+  margin-bottom: 10px; /* Space below the tab text */
+  padding: 5px 10px; /* Add some padding for a neat look */
+  background: linear-gradient(45deg, #4CAF50, #8BC34A); /* Add a gradient background */
+  border-radius: 5px; /* Rounded corners */
+  display: inline-block; /* Ensure the background doesn't take up full width */
+  transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
+}
+
+/* Hover effect for tab text */
+.tas .text:hover, .tas .tas-text:hover {
+  color: white; /* Change text color on hover */
+  background: linear-gradient(45deg, #8BC34A, #4CAF50); /* Swap gradient direction */
+  transform: scale(1.05); /* Slightly enlarge the text on hover */
+}
+
+/* Add spacing between tabs */
+.tas {
+  margin-bottom: 30px; /* Add margin below each tab */
+}
+
+
+.input-group {
+    margin-top: 20px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input:focus,
+select:focus {
+    border-color: #5b9bd5;
+    outline: none;
+}
+
+button {
+    background-color: #5b9bd5;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #4a8bc2;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #333;
+}
